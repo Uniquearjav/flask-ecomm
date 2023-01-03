@@ -270,7 +270,7 @@ def cart():
     return render_template("cart.html", shoppingCart=shoppingCart, shopLen=shopLen, total=total, totItems=totItems, display=display, session=session)
 
 
- @app.errorhandler(404)
+@app.errorhandler(404)
  def pageNotFound( e ):
      if 'user' in session:
          return render_template ( "404.html", session=session )
