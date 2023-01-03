@@ -14,6 +14,7 @@ Session(app)
 # Creates a connection to the database
 db = SQL ( "sqlite:///data.db" )
 
+
 @app.route("/")
 def index():
     shirts = db.execute("SELECT * FROM shirts ORDER BY team ASC")
