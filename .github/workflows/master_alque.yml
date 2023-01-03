@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Alque'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD366B48CB314F2FA14A6D42C885A6BD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B4EC5C5C203F41199145C844AFFC7152 }}
